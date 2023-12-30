@@ -1,0 +1,14 @@
+package com.java.string;
+
+public class RemoveDuplicateCharacters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "programming";
+		
+		StringBuilder sb = new StringBuilder();
+		s.chars().distinct().forEach(c->sb.append(c));
+		System.out.println(sb);
+	}
+
+}
